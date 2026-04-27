@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>西宮市の出張買取なら 株式会社ForEternal｜査定無料・即日対応</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Shippori+Mincho:wght@400;600;700&family=Oswald:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0b1c2e;--navy2:#142840;
+  --gold:#c8a96e;--gold-l:#e8d5a8;
+  --white:#ffffff;--cream:#f8f4ed;
+  --border:#d5c9b0;--muted:#666;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Noto Sans JP',sans-serif;background:var(--cream);color:#1a1a1a;overflow-x:hidden;padding-bottom:68px;}
+a{text-decoration:none;-webkit-tap-highlight-color:transparent;}
+img{display:block;max-width:100%;}
+
+/* HEADER */
+header{
+  position:sticky;top:0;z-index:300;
+  background:var(--navy);
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 48px;height:68px;
+  box-shadow:0 2px 24px rgba(0,0,0,.5);
+}
+.logo{font-family:'Oswald',sans-serif;font-size:22px;letter-spacing:4px;color:var(--gold);font-weight:600;}
+.logo small{display:block;font-size:8px;color:rgba(255,255,255,.4);letter-spacing:3px;font-weight:300;margin-top:2px;}
+.h-tel a{font-family:'Oswald',sans-serif;font-size:22px;letter-spacing:2px;color:var(--gold);display:block;text-align:right;}
+.h-tel small{font-size:9px;color:rgba(255,255,255,.35);letter-spacing:2px;display:block;text-align:right;}
+
+/* HERO */
+.hero{display:grid;grid-template-columns:1fr 1fr;min-height:88vh;overflow:hidden;}
+.hero-left{
+  background:var(--navy);
+  display:flex;flex-direction:column;justify-content:center;
+  padding:80px 60px 80px 64px;position:relative;
+}
+.hero-left::after{
+  content:'';position:absolute;right:-1px;top:0;bottom:0;width:60px;
+  background:var(--navy);clip-path:polygon(0 0,0 100%,100% 100%);
+}
+.hero-eye{font-family:'Oswald',sans-serif;font-size:10px;letter-spacing:5px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+.hero h1{font-family:'Shippori Mincho',serif;font-size:clamp(28px,3.4vw,48px);font-weight:700;line-height:1.45;color:var(--white);margin-bottom:22px;}
+.hero h1 em{color:var(--gold);font-style:normal;}
+.hero-rule{width:40px;height:2px;background:var(--gold);margin-bottom:22px;}
+.hero-sub{font-size:14px;color:rgba(255,255,255,.65);line-height:2.1;margin-bottom:28px;font-weight:300;}
+.checks{display:flex;flex-direction:column;gap:10px;margin-bottom:32px;}
+.chk{display:flex;align-items:flex-start;gap:10px;font-size:13px;color:var(--gold-l);}
+.chk-ic{width:20px;height:20px;background:var(--gold);color:var(--navy);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:900;flex-shrink:0;margin-top:1px;}
+.hero-btns{display:flex;flex-direction:column;gap:12px;}
+.btn-gold{display:flex;align-items:center;justify-content:center;gap:10px;background:var(--gold);color:var(--navy);padding:17px 32px;font-size:15px;font-weight:700;letter-spacing:1px;transition:all .25s;}
+.btn-gold:hover{background:var(--gold-l);transform:translateY(-2px);box-shadow:0 8px 24px rgba(200,169,110,.4);}
+.btn-line{display:flex;align-items:center;justify-content:center;gap:10px;background:#06C755;color:var(--white);padding:15px 32px;font-size:14px;font-weight:700;transition:all .25s;}
+.btn-line:hover{background:#05a847;transform:translateY(-2px);}
+.hero-note{font-size:11px;color:rgba(255,255,255,.3);text-align:center;margin-top:8px;}
+.hero-right{position:relative;overflow:hidden;}
+.hero-right img{width:100%;height:100%;object-fit:cover;display:block;}
+.hero-badge{position:absolute;bottom:28px;left:28px;background:rgba(11,28,46,.92);border-left:4px solid var(--gold);padding:14px 20px;box-shadow:0 4px 20px rgba(0,0,0,.4);}
+.hero-badge strong{display:block;font-family:'Oswald',sans-serif;font-size:22px;color:var(--gold);letter-spacing:1px;}
+.hero-badge span{font-size:11px;color:rgba(255,255,255,.5);}
+
+/* FREE BANNER */
+.free-bar{background:var(--gold);padding:16px 48px;display:flex;align-items:center;justify-content:center;gap:48px;flex-wrap:wrap;}
+.fi{display:flex;align-items:center;gap:8px;color:var(--navy);font-size:13px;font-weight:700;letter-spacing:1px;}
+
+/* SECTION BASE */
+section{padding:80px 48px;}
+.wrap{max-width:1080px;margin:0 auto;}
+.lbl{font-family:'Oswald',sans-serif;font-size:10px;letter-spacing:4px;color:var(--gold);text-transform:uppercase;display:block;margin-bottom:10px;}
+.ttl{font-family:'Shippori Mincho',serif;font-size:clamp(22px,2.8vw,36px);font-weight:700;line-height:1.35;color:var(--navy);margin-bottom:10px;}
+.ttl-w{color:var(--white);}
+.ttl em{color:var(--gold);font-style:normal;}
+.rule{width:40px;height:2px;background:var(--gold);margin-bottom:44px;}
+
+/* REASONS */
+.reasons-bg{background:var(--navy);}
+.rg{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(255,255,255,.06);}
+.rc{background:var(--navy2);padding:40px 32px;border-top:2px solid rgba(200,169,110,.2);transition:border-color .25s;}
+.rc:hover{border-top-color:var(--gold);}
+.rn{font-family:'Oswald',sans-serif;font-size:44px;font-weight:300;-webkit-text-stroke:1px rgba(200,169,110,.3);color:transparent;line-height:1;margin-bottom:16px;}
+.rc h3{font-family:'Shippori Mincho',serif;font-size:16px;color:var(--white);margin-bottom:12px;line-height:1.5;}
+.rc h3 span{color:var(--gold);}
+.rc p{font-size:13px;color:rgba(255,255,255,.5);line-height:1.9;}
+
+/* ITEMS */
+.items-bg{background:var(--cream);}
+.items-intro{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;margin-bottom:48px;}
+.items-img{width:100%;aspect-ratio:16/10;object-fit:cover;}
+.ig{display:grid;grid-template-columns:repeat(5,1fr);gap:2px;background:var(--border);}
+.ic{background:var(--white);padding:20px 12px;text-align:center;cursor:default;transition:all .2s;}
+.ic:hover{background:var(--navy);}
+.ij{display:block;font-size:13px;font-weight:700;color:#1a1a1a;margin-bottom:4px;transition:color .2s;}
+.ie{font-family:'Oswald',sans-serif;font-size:10px;letter-spacing:1px;color:var(--muted);transition:color .2s;}
+.ic:hover .ij{color:var(--gold);}
+.ic:hover .ie{color:rgba(255,255,255,.5);}
+.items-note{text-align:center;font-size:12px;color:var(--muted);margin-top:14px;}
+
+/* FLOW */
+.flow-bg{background:var(--white);}
+.flow-in{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;}
+.flow-img{width:100%;aspect-ratio:4/5;object-fit:cover;}
+.steps{display:flex;flex-direction:column;}
+.step{display:flex;gap:20px;align-items:flex-start;padding:22px 0;border-bottom:1px solid var(--border);}
+.step:first-child{padding-top:0;}
+.step:last-child{border-bottom:none;padding-bottom:0;}
+.sn{width:44px;height:44px;border-radius:50%;background:var(--gold);color:var(--navy);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:16px;flex-shrink:0;box-shadow:0 4px 14px rgba(200,169,110,.35);}
+.sb h4{font-family:'Shippori Mincho',serif;font-size:15px;font-weight:700;color:var(--navy);margin-bottom:6px;}
+.sb p{font-size:13px;color:var(--muted);line-height:1.85;}
+
+/* SCENE */
+.scene-bg{background:var(--cream);}
+.sg{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;}
+.sc{position:relative;overflow:hidden;aspect-ratio:16/9;}
+.sc img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s ease;}
+.sc:hover img{transform:scale(1.04);}
+.so{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.72) 0%,transparent 55%);display:flex;flex-direction:column;justify-content:flex-end;padding:28px;}
+.stag{display:inline-block;background:var(--gold);color:var(--navy);font-family:'Oswald',sans-serif;font-size:10px;letter-spacing:2px;padding:4px 10px;margin-bottom:10px;width:fit-content;}
+.so h3{font-family:'Shippori Mincho',serif;font-size:20px;color:var(--white);margin-bottom:6px;font-weight:700;}
+.so p{font-size:12px;color:rgba(255,255,255,.75);line-height:1.7;}
+
+/* VOICE */
+.voice-bg{background:var(--navy);}
+.vg{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(255,255,255,.06);margin-top:44px;}
+.vc{background:var(--navy2);padding:30px 26px;border-top:2px solid var(--gold);}
+.stars{color:var(--gold);font-size:13px;margin-bottom:12px;letter-spacing:3px;}
+.vc p{font-size:13px;color:rgba(255,255,255,.6);line-height:1.95;}
+.vi{margin-top:16px;padding-top:14px;border-top:1px solid rgba(255,255,255,.08);font-size:11px;color:rgba(255,255,255,.3);}
+
+/* EXEC */
+.exec-bg{background:var(--cream);}
+.eg{display:grid;grid-template-columns:1fr 1fr;gap:32px;}
+.ec{display:grid;grid-template-columns:160px 1fr;gap:24px;align-items:start;background:var(--white);padding:32px;border-top:2px solid var(--gold);}
+.ec img{width:160px;height:200px;object-fit:cover;object-position:top;}
+.erole{font-family:'Oswald',sans-serif;font-size:9px;letter-spacing:3px;color:var(--gold);text-transform:uppercase;display:block;margin-bottom:6px;}
+.ec h3{font-family:'Shippori Mincho',serif;font-size:18px;font-weight:700;color:var(--navy);margin-bottom:12px;}
+.ec p{font-size:13px;color:var(--muted);line-height:1.95;}
+
+/* FAQ */
+.faq-bg{background:var(--white);}
+.fq-cols{display:grid;grid-template-columns:1fr 1fr;gap:0 2px;background:var(--border);}
+.fqi{background:var(--white);}
+.fq{padding:20px 24px;cursor:pointer;display:flex;align-items:flex-start;gap:14px;font-size:14px;color:#1a1a1a;transition:background .15s;user-select:none;}
+.fq:hover{background:#faf7f0;}
+.fqm{background:var(--gold);color:var(--navy);font-size:12px;font-weight:900;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;}
+.farr{margin-left:auto;color:var(--gold);font-size:11px;transition:transform .25s;flex-shrink:0;}
+.fqi.open .farr{transform:rotate(180deg);}
+.fa{display:none;padding:0 24px 20px 62px;font-size:13px;color:var(--muted);line-height:1.9;}
+.fqi.open .fa{display:block;}
+
+/* COMPANY */
+.co-bg{background:var(--cream);}
+.co-g{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start;}
+.co-img{width:100%;aspect-ratio:4/3;object-fit:cover;margin-bottom:20px;}
+.co-tbl{width:100%;border-collapse:collapse;}
+.co-tbl tr{border-bottom:1px solid var(--border);}
+.co-tbl td{padding:14px 0;font-size:13px;line-height:1.85;vertical-align:top;}
+.co-tbl td:first-child{font-family:'Oswald',sans-serif;font-size:10px;letter-spacing:2px;color:var(--gold);text-transform:uppercase;width:130px;padding-top:16px;}
+.sdg{background:var(--navy);padding:24px;}
+.sdg h4{font-size:13px;font-weight:700;color:var(--gold);margin-bottom:8px;}
+.sdg p{font-size:12px;color:rgba(255,255,255,.55);line-height:1.9;}
+
+/* CTA */
+.cta-bg{background:var(--navy);padding:80px 48px;text-align:center;position:relative;overflow:hidden;}
+.cta-bg::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,var(--gold),transparent);}
+.cta-bg::after{content:'FOR ETERNAL';position:absolute;font-family:'Oswald',sans-serif;font-size:140px;font-weight:300;color:rgba(255,255,255,.03);letter-spacing:20px;white-space:nowrap;top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none;}
+.cta-bg h2{font-family:'Shippori Mincho',serif;font-size:clamp(24px,3.5vw,44px);font-weight:700;color:var(--white);margin-bottom:12px;position:relative;line-height:1.4;}
+.cta-bg h2 em{color:var(--gold);font-style:normal;}
+.cta-bg p{color:rgba(255,255,255,.5);font-size:14px;margin-bottom:44px;position:relative;line-height:2;}
+.cta-row{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;position:relative;}
+.cta-tel{background:var(--gold);padding:26px 52px;text-align:center;transition:all .25s;}
+.cta-tel:hover{background:var(--gold-l);transform:translateY(-3px);box-shadow:0 10px 30px rgba(200,169,110,.35);}
+.cta-tel span{display:block;font-family:'Oswald',sans-serif;font-size:10px;letter-spacing:3px;color:var(--navy);margin-bottom:6px;text-transform:uppercase;}
+.cta-tel strong{font-family:'Oswald',sans-serif;font-size:32px;color:var(--navy);letter-spacing:2px;display:block;}
+.cta-tel small{display:block;font-size:11px;color:rgba(0,0,0,.45);margin-top:4px;}
+.cta-ln{background:#06C755;padding:26px 52px;display:flex;align-items:center;gap:14px;color:var(--white);font-size:16px;font-weight:700;transition:all .25s;}
+.cta-ln:hover{background:#05a847;transform:translateY(-3px);}
+.cta-ln span{font-size:28px;}
+
+/* FOOTER */
+footer{background:#070f18;padding:48px 48px 28px;}
+.ft-in{max-width:1080px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;padding-bottom:28px;border-bottom:1px solid rgba(255,255,255,.07);flex-wrap:wrap;gap:20px;}
+.ft-logo{font-family:'Oswald',sans-serif;font-size:18px;letter-spacing:4px;color:var(--gold);}
+.ft-logo small{display:block;font-size:8px;color:rgba(255,255,255,.25);letter-spacing:2px;font-weight:300;}
+.ft-nav{display:flex;gap:24px;flex-wrap:wrap;}
+.ft-nav a{font-family:'Oswald',sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#444;transition:color .2s;}
+.ft-nav a:hover{color:var(--gold);}
+.copy{max-width:1080px;margin:20px auto 0;text-align:center;font-family:'Oswald',sans-serif;font-size:10px;letter-spacing:2px;color:#222;}
+
+/* STICKY */
+.sticky{position:fixed;bottom:0;left:0;right:0;display:grid;grid-template-columns:1fr 1fr;z-index:400;box-shadow:0 -3px 20px rgba(0,0,0,.25);}
+.st-tel{background:var(--navy);border-top:2px solid var(--gold);padding:12px 20px;text-align:center;}
+.st-tel span{display:block;font-family:'Oswald',sans-serif;font-size:9px;letter-spacing:2px;color:var(--gold);text-transform:uppercase;margin-bottom:1px;}
+.st-tel strong{font-family:'Oswald',sans-serif;font-size:19px;color:var(--white);letter-spacing:1px;}
+.st-ln{background:#06C755;padding:12px 20px;display:flex;align-items:center;justify-content:center;gap:8px;}
+.st-ln span{font-size:18px;}
+.st-ln strong{color:var(--white);font-size:13px;font-weight:700;}
+
+/* REVEAL */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease;}
+.rv.on{opacity:1;transform:none;}
+
+/* SP */
+@media(max-width:860px){
+  header{padding:0 20px;}
+  .hero{grid-template-columns:1fr;}
+  .hero-right{height:260px;}
+  .hero-left{padding:48px 24px;}
+  section{padding:56px 20px;}
+  .rg,.items-intro,.flow-in,.eg,.co-g{grid-template-columns:1fr;gap:24px;}
+  .sg,.vg,.fq-cols{grid-template-columns:1fr;}
+  .ig{grid-template-columns:repeat(3,1fr);}
+  .ec{grid-template-columns:1fr;}
+  .ec img{width:100%;height:180px;}
+  .cta-bg{padding:56px 20px;}
+  .cta-row{flex-direction:column;align-items:center;}
+  footer{padding:36px 20px 20px;}
+  .free-bar{padding:13px 20px;gap:12px 20px;}
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">FOR ETERNAL<small>株式会社フォーエターナル</small></div>
+  <div class="h-tel">
+    <a href="tel:0798611779">0798-61-1779</a>
+    <small>受付 9:00〜19:00</small>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-left">
+    <p class="hero-eye">Nishinomiya · Hyogo · Kansai</p>
+    <h1>お宅まで伺います。<br><em>出張買取</em>なら<br>ForEternalへ。</h1>
+    <div class="hero-rule"></div>
+    <p class="hero-sub">ブランド品・貴金属・時計・家電など<br>何点からでも、どんな状態でも丁寧に査定。<br>関西全域、最短即日でお伺いします。</p>
+    <div class="checks">
+      <div class="chk"><div class="chk-ic">✓</div>査定料・出張費・キャンセル料、すべて無料</div>
+      <div class="chk"><div class="chk-ic">✓</div>1点からでもOK。まとめてでもOK</div>
+      <div class="chk"><div class="chk-ic">✓</div>古物商許可取得済み／地域密着の安心対応</div>
+    </div>
+    <div class="hero-btns">
+      <a href="tel:0798611779" class="btn-gold">📞 今すぐ無料で電話査定</a>
+      <a href="#" class="btn-line">💬 LINEで写真を送って査定</a>
+      <p class="hero-note">受付時間 9:00〜19:00 ／ 年中無休</p>
+    </div>
+  </div>
+  <div class="hero-right">
+    <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=1200&q=80" alt="ジュエリー査定">
+    <div class="hero-badge">
+      <span>累計査定実績</span>
+      <strong>4,000点以上</strong>
+    </div>
+  </div>
+</div>
+
+<!-- FREE BANNER -->
+<div class="free-bar">
+  <div class="fi">★ 査定料 完全無料</div>
+  <div class="fi">★ 出張費 完全無料</div>
+  <div class="fi">★ キャンセル料 完全無料</div>
+  <div class="fi">★ 最短即日対応</div>
+</div>
+
+<!-- REASONS -->
+<section class="reasons-bg" id="reasons">
+  <div class="wrap">
+    <span class="lbl">Why ForEternal</span>
+    <h2 class="ttl ttl-w">ForEternalが<em>選ばれる</em>6つの理由</h2>
+    <div class="rule"></div>
+    <div class="rg rv">
+      <div class="rc"><div class="rn">01</div><h3>査定・出張・キャンセル<br><span>すべて完全無料</span></h3><p>どれだけ時間がかかっても、査定後にお断りいただいても費用は一切発生しません。「値段だけ知りたい」でもお気軽にどうぞ。</p></div>
+      <div class="rc"><div class="rn">02</div><h3>ジャンク・欠品品も<br><span>買取対象</span></h3><p>壊れている、箱がない——そんな商品でも査定いたします。他社で断られたものもまずはご相談ください。</p></div>
+      <div class="rc"><div class="rn">03</div><h3>古物商許可取得<br><span>安心・誠実な対応</span></h3><p>兵庫県公安委員会の古物商許可を取得。法令を遵守した安全な買取を行います。</p></div>
+      <div class="rc"><div class="rn">04</div><h3>関西全域に<br><span>最短即日対応</span></h3><p>西宮を拠点に兵庫・大阪を中心とした関西全域へ最短即日でお伺いします。</p></div>
+      <div class="rc"><div class="rn">05</div><h3>1点から大量まで<br><span>どちらもOK</span></h3><p>バッグ1点の査定から、引越し・遺品整理などの大量品まで対応。点数で断ることはありません。</p></div>
+      <div class="rc"><div class="rn">06</div><h3>品物に宿る価値を<br><span>丁寧に見極める</span></h3><p>単なる売買ではなく、大切にしてきた品物のストーリーごと受け取ります。それが私たちの仕事です。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ITEMS -->
+<section class="items-bg" id="items">
+  <div class="wrap">
+    <div class="items-intro rv">
+      <div>
+        <span class="lbl">Category</span>
+        <h2 class="ttl">幅広い品目を<em>高価買取</em></h2>
+        <div class="rule"></div>
+        <p style="font-size:14px;color:var(--muted);line-height:2.2;font-weight:300;">貴金属・ブランド品・時計から家電・家具・着物まで。「これ売れる？」と思ったらまずはご連絡を。ジャンク品・欠品品も買取対象です。</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=900&q=80" alt="貴金属・ジュエリー" class="items-img">
+    </div>
+    <div class="ig rv">
+      <div class="ic"><span class="ij">貴金属・金</span><span class="ie">Gold / Platinum</span></div>
+      <div class="ic"><span class="ij">ブランド品</span><span class="ie">Brand Items</span></div>
+      <div class="ic"><span class="ij">時計</span><span class="ie">Watches</span></div>
+      <div class="ic"><span class="ij">ジュエリー</span><span class="ie">Jewelry</span></div>
+      <div class="ic"><span class="ij">家電</span><span class="ie">Electronics</span></div>
+      <div class="ic"><span class="ij">家具</span><span class="ie">Furniture</span></div>
+      <div class="ic"><span class="ij">カメラ</span><span class="ie">Cameras</span></div>
+      <div class="ic"><span class="ij">楽器</span><span class="ie">Instruments</span></div>
+      <div class="ic"><span class="ij">着物</span><span class="ie">Kimono</span></div>
+      <div class="ic"><span class="ij">お酒</span><span class="ie">Liquor</span></div>
+      <div class="ic"><span class="ij">パソコン</span><span class="ie">PC / Mac</span></div>
+      <div class="ic"><span class="ij">スマホ</span><span class="ie">Smartphone</span></div>
+      <div class="ic"><span class="ij">ゴルフ用品</span><span class="ie">Golf</span></div>
+      <div class="ic"><span class="ij">骨董・美術</span><span class="ie">Antiques</span></div>
+      <div class="ic"><span class="ij">その他</span><span class="ie">And more...</span></div>
+    </div>
+    <p class="items-note">※上記以外もお気軽にご相談ください。ジャンク品・欠品品も買取対象です。</p>
+  </div>
+</section>
+
+<!-- FLOW -->
+<section class="flow-bg" id="flow">
+  <div class="wrap">
+    <div class="flow-in rv">
+      <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=900&q=80" alt="査定の様子" class="flow-img">
+      <div>
+        <span class="lbl">Flow</span>
+        <h2 class="ttl">買取の<em>流れ</em></h2>
+        <div class="rule"></div>
+        <div class="steps">
+          <div class="step"><div class="sn">1</div><div class="sb"><h4>お電話 or LINE で事前査定</h4><p>お品物の種類・状態をお伝えください。概算の査定額をその場でご案内します。</p></div></div>
+          <div class="step"><div class="sn">2</div><div class="sb"><h4>訪問日時を調整</h4><p>ご都合の良い日時をお伝えください。最短即日でお伺いします。夜間・週末も対応可能です。</p></div></div>
+          <div class="step"><div class="sn">3</div><div class="sb"><h4>ご自宅で本査定</h4><p>スタッフがお伺いし、実物を丁寧に査定。玄関先でもOKです。査定料・出張費は一切かかりません。</p></div></div>
+          <div class="step"><div class="sn">4</div><div class="sb"><h4>納得したら買取成立・入金</h4><p>査定額にご納得いただけたら買取成立。2営業日以内に指定口座へお振込み。キャンセルも無料。</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SCENE -->
+<section class="scene-bg">
+  <div class="wrap">
+    <span class="lbl">Scene</span>
+    <h2 class="ttl">こんな時に<em>ご利用いただけます</em></h2>
+    <div class="rule"></div>
+    <div class="sg rv">
+      <div class="sc"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80" alt="引越し"><div class="so"><span class="stag">MOVING</span><h3>引越し・断捨離</h3><p>大型家具・家電も運び出しまでサポート。引越し前のまとめ処分に。</p></div></div>
+      <div class="sc"><img src="https://images.unsplash.com/photo-1584467735871-8e85353a8413?w=900&q=80" alt="遺品整理"><div class="so"><span class="stag">INHERITANCE</span><h3>遺品整理・生前整理</h3><p>故人の大切なお品物を丁寧に査定。価値あるものを次の方へつなぎます。</p></div></div>
+      <div class="sc"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=80" alt="オフィス"><div class="so"><span class="stag">OFFICE</span><h3>オフィス移転・退去</h3><p>事務機器・家具など法人様の一括処分も対応。まとめてご相談ください。</p></div></div>
+      <div class="sc"><img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=900&q=80" alt="催事"><div class="so"><span class="stag">EVENT</span><h3>催事・イベント買取</h3><p>催事会場への出張対応も可能。多数のお品物をその場で査定・即買取。</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- VOICE -->
+<section class="voice-bg">
+  <div class="wrap">
+    <span class="lbl">Customer Voice</span>
+    <h2 class="ttl ttl-w">お客様の<em>声</em></h2>
+    <div class="rule"></div>
+    <div class="vg rv">
+      <div class="vc"><div class="stars">★★★★★</div><p>実家の片付けで出てきたブランドバッグと古い時計を査定してもらいました。思っていた以上の金額で驚きました。対応もとても丁寧で安心できました。</p><div class="vi">出張買取 ／ 西宮市・50代女性</div></div>
+      <div class="vc"><div class="stars">★★★★★</div><p>引越しが決まり、大型家電をどうしようか困っていたところを紹介してもらいました。冷蔵庫も洗濯機もまとめて来てくれて、運び出しまでやってくれて本当に助かりました。</p><div class="vi">出張買取 ／ 西宮市・30代男性</div></div>
+      <div class="vc"><div class="stars">★★★★★</div><p>催事会場での買取でお世話になりました。スタッフの方の知識が豊富で、品物一点一点を丁寧に見てくれました。気持ちよく手放せてよかったです。</p><div class="vi">催事買取 ／ 尼崎市・40代男性</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXEC -->
+<section class="exec-bg">
+  <div class="wrap">
+    <span class="lbl">Message</span>
+    <h2 class="ttl">代表からの<em>メッセージ</em></h2>
+    <div class="rule"></div>
+    <div class="eg rv">
+      <div class="ec">
+        <img src="https://for-eternal.com/wp-content/uploads/company01.jpg" alt="𠮷川 光希">
+        <div><span class="erole">Representative Director</span><h3>𠮷川 光希</h3><p>現場と組織の両面からサービス品質を高め、お客様にとって最も信頼できる買取企業を目指しています。どんな時も丁寧に向き合い、小さな気づきも見逃さない姿勢を大切にしています。</p></div>
+      </div>
+      <div class="ec">
+        <img src="https://for-eternal.com/wp-content/uploads/company02.jpg" alt="𠮷川 裕希">
+        <div><span class="erole">Director / COO</span><h3>𠮷川 裕希</h3><p>買取は単なる査定・売買ではなく、人と人、人とモノを結ぶ「ご縁の仕事」だと考えています。地域の皆さまに安心してご利用いただける存在であり続けるため、誠実さを何よりも大切にしてまいりました。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-bg">
+  <div class="wrap">
+    <span class="lbl">FAQ</span>
+    <h2 class="ttl">よくある<em>ご質問</em></h2>
+    <div class="rule"></div>
+    <div class="fq-cols rv">
+      <div>
+        <div class="fqi"><div class="fq" onclick="tog(this)"><div class="fqm">Q</div>出張費・査定料はかかりますか？<span class="farr">▼</span></div><div class="fa">出張費・査定料は一切無料です。キャンセルされた場合も費用は発生しません。</div></div>
+        <div class="fqi"><div class="fq" onclick="tog(this)"><div class="fqm">Q</div>壊れているものでも買い取れますか？<span class="farr">▼</span></div><div class="fa">はい、ジャンク品・欠品品も基本的に買取対象です。状態に関わらずまずはご相談ください。</div></div>
+        <div class="fqi"><div class="fq" onclick="tog(this)"><div class="fqm">Q</div>1点だけでも来てもらえますか？<span class="farr">▼</span></div><div class="fa">もちろんです。1点からでもお伺いします。まとめてでも1点でも、どちらも大歓迎です。</div></div>
+        <div class="fqi"><div class="fq" onclick="tog(this)"><div class="fqm">Q</div>法人からの依頼も受け付けていますか？<span class="farr">▼</span></div><div class="fa">法人様からの買取も承っております。余剰在庫の一括処分・オフィス移転など何でもご相談ください。</div></div>
+      </div>
+      <div>
+        <div class="fqi"><div class="fq" onclick="tog(this)"><div class="fqm">Q</div>代金はいつ受け取れますか？<span class="farr">▼</span></div><div class="fa">買取成立後、2営業日以内に指定口座へお振込みいたします。</div></div>
+        <div class="fqi"><div class="fq" onclick="tog(this)"><div class="fqm">Q</div>査定の際に必要なものはありますか？<span class="farr">▼</span></div><div class="fa">運転免許証・マイナンバーカードなどの本人確認書類をご準備ください。</div></div>
+        <div class="fqi"><div class="fq" onclick="tog(this)"><div class="fqm">Q</div>即日対応は可能ですか？<span class="farr">▼</span></div><div class="fa">はい、最短即日でお伺い可能です。お急ぎの場合はお電話でその旨をお伝えください。</div></div>
+        <div class="fqi"><div class="fq" onclick="tog(this)"><div class="fqm">Q</div>対応エリアはどこですか？<span class="farr">▼</span></div><div class="fa">西宮市を中心に兵庫・大阪など関西全域に対応しています。</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPANY -->
+<section class="co-bg" id="company">
+  <div class="wrap">
+    <div class="co-g rv">
+      <div>
+        <span class="lbl">Company</span>
+        <h2 class="ttl">会社概要</h2>
+        <div class="rule"></div>
+        <table class="co-tbl">
+          <tr><td>Company</td><td>株式会社ForEternal（フォーエターナル）</td></tr>
+          <tr><td>Location</td><td>兵庫県西宮市甲子園口3-23-11</td></tr>
+          <tr><td>Founded</td><td>2021年2月</td></tr>
+          <tr><td>Capital</td><td>3,000,000円</td></tr>
+          <tr><td>Tel</td><td>0798-61-1779</td></tr>
+          <tr><td>Director</td><td>代表取締役 𠮷川 光希 ／ 取締役COO 𠮷川 裕希</td></tr>
+          <tr><td>Service</td><td>出張買取 ／ 卸売販売 ／ 催事イベント ／ コーティング施工</td></tr>
+          <tr><td>Bank</td><td>尼崎信用金庫 ／ 住信SBIネット銀行 ／ PayPay銀行</td></tr>
+          <tr><td>License</td><td>兵庫県公安委員会 第631322200015号</td></tr>
+        </table>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1542621334-a254cf47733d?w=900&q=80" alt="地金・貴金属" class="co-img">
+        <div class="sdg">
+          <h4>♻️ SDGs への取り組み</h4>
+          <p>大切に使われてきた品物を次の方へつなぐことで、廃棄物の削減・CO₂排出量の低減に貢献しています。買取事業を通じて環境負荷の軽減と地球環境の保全に取り組んでいます。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-bg" id="cta">
+  <h2>まずは<em>無料査定</em>から<br>お気軽にどうぞ</h2>
+  <p>査定・出張・キャンセル、すべて完全無料。<br>「売れるかどうかわからない」でも大歓迎です。</p>
+  <div class="cta-row">
+    <a href="tel:0798611779" class="cta-tel">
+      <span>電話で無料査定（最短即日対応）</span>
+      <strong>0798-61-1779</strong>
+      <small>受付時間 9:00〜19:00 年中無休</small>
+    </a>
+    <a href="#" class="cta-ln"><span>💬</span>LINEで写真を送って査定</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft-in">
+    <div class="ft-logo">FOR ETERNAL<small>株式会社フォーエターナル</small></div>
+    <nav class="ft-nav">
+      <a href="#">Home</a><a href="#">Service</a><a href="#">Company</a>
+      <a href="#">Recruit</a><a href="#">Privacy</a><a href="#">Contact</a>
+    </nav>
+  </div>
+  <p class="copy">© 2025 株式会社ForEternal All Rights Reserved.</p>
+</footer>
+
+<!-- STICKY -->
+<div class="sticky">
+  <a href="tel:0798611779" class="st-tel">
+    <span>無料査定・即日対応</span>
+    <strong>📞 0798-61-1779</strong>
+  </a>
+  <a href="#" class="st-ln"><span>💬</span><strong>LINEで無料査定</strong></a>
+</div>
+
+<script>
+function tog(el){el.parentElement.classList.toggle('open');}
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');obs.unobserve(e.target);}}),{threshold:.08});
+document.querySelectorAll('.rv').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
